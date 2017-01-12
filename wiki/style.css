@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px 40px;
+}
+
+.intro {
+  margin: 40px 40px;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+
+}
+
+.welcome {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: #0645AD;
+}
+
+img {
+  min-width: 150px;
+  max-width: 150px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*justify-content: space-around;*/
+  margin: 20px;
+}
+.bottom-word {
+  text-align: center;
+  font-size: 13px;
+}
+ul {
+  list-style-type: none;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+
+}
